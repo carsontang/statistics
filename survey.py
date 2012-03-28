@@ -1,6 +1,9 @@
 """This file contains code for use with "Think Stats",
 by Allen B. Downey, available from greenteapress.com
 
+Originally by: Allen B. Downey
+Modified by:	 Carson Tang
+
 Copyright 2010 Allen B. Downey
 License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
 """
@@ -155,6 +158,7 @@ class Pregnancies(Table):
             ('birthord', 278, 279, int),
             ('agepreg', 284, 287, int),
             ('finalwgt', 423, 440, float),
+						('lbw1', 305, 305, int)
             ]
 
     def Recode(self):
